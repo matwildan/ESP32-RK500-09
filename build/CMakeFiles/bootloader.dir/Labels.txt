@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/awe/esp/coba_modbus/build/CMakeFiles/bootloader
+/home/awe/esp/coba_modbus/build/CMakeFiles/bootloader.rule
+/home/awe/esp/coba_modbus/build/CMakeFiles/bootloader-complete.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/awe/esp/coba_modbus/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

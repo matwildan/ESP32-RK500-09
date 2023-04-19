@@ -1,0 +1,236 @@
+[0/1] Re-running CMake...
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/awe/esp/coba_modbus/sdkconfig
+-- App "coba_modbus" version: 1
+-- Adding linker script /home/awe/esp/coba_modbus/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/awe/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock config console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread rs485 sdmmc soc spi_flash spiffs tcp_transport tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/awe/esp/esp-idf/components/app_trace /home/awe/esp/esp-idf/components/app_update /home/awe/esp/esp-idf/components/bootloader /home/awe/esp/esp-idf/components/bootloader_support /home/awe/esp/esp-idf/components/bt /home/awe/esp/esp-idf/components/cmock /home/awe/esp/coba_modbus/components/config /home/awe/esp/esp-idf/components/console /home/awe/esp/esp-idf/components/cxx /home/awe/esp/esp-idf/components/driver /home/awe/esp/esp-idf/components/efuse /home/awe/esp/esp-idf/components/esp-tls /home/awe/esp/esp-idf/components/esp_adc /home/awe/esp/esp-idf/components/esp_app_format /home/awe/esp/esp-idf/components/esp_common /home/awe/esp/esp-idf/components/esp_eth /home/awe/esp/esp-idf/components/esp_event /home/awe/esp/esp-idf/components/esp_gdbstub /home/awe/esp/esp-idf/components/esp_hid /home/awe/esp/esp-idf/components/esp_http_client /home/awe/esp/esp-idf/components/esp_http_server /home/awe/esp/esp-idf/components/esp_https_ota /home/awe/esp/esp-idf/components/esp_https_server /home/awe/esp/esp-idf/components/esp_hw_support /home/awe/esp/esp-idf/components/esp_lcd /home/awe/esp/esp-idf/components/esp_local_ctrl /home/awe/esp/esp-idf/components/esp_netif /home/awe/esp/esp-idf/components/esp_phy /home/awe/esp/esp-idf/components/esp_pm /home/awe/esp/esp-idf/components/esp_psram /home/awe/esp/esp-idf/components/esp_ringbuf /home/awe/esp/esp-idf/components/esp_rom /home/awe/esp/esp-idf/components/esp_serial_slave_link /home/awe/esp/esp-idf/components/esp_system /home/awe/esp/esp-idf/components/esp_timer /home/awe/esp/esp-idf/components/esp_wifi /home/awe/esp/esp-idf/components/espcoredump /home/awe/esp/esp-idf/components/esptool_py /home/awe/esp/esp-idf/components/fatfs /home/awe/esp/esp-idf/components/freertos /home/awe/esp/esp-idf/components/hal /home/awe/esp/esp-idf/components/heap /home/awe/esp/esp-idf/components/http_parser /home/awe/esp/esp-idf/components/idf_test /home/awe/esp/esp-idf/components/ieee802154 /home/awe/esp/esp-idf/components/json /home/awe/esp/esp-idf/components/log /home/awe/esp/esp-idf/components/lwip /home/awe/esp/coba_modbus/main /home/awe/esp/esp-idf/components/mbedtls /home/awe/esp/esp-idf/components/mqtt /home/awe/esp/esp-idf/components/newlib /home/awe/esp/esp-idf/components/nvs_flash /home/awe/esp/esp-idf/components/openthread /home/awe/esp/esp-idf/components/partition_table /home/awe/esp/esp-idf/components/perfmon /home/awe/esp/esp-idf/components/protobuf-c /home/awe/esp/esp-idf/components/protocomm /home/awe/esp/esp-idf/components/pthread /home/awe/esp/coba_modbus/components/rs485 /home/awe/esp/esp-idf/components/sdmmc /home/awe/esp/esp-idf/components/soc /home/awe/esp/esp-idf/components/spi_flash /home/awe/esp/esp-idf/components/spiffs /home/awe/esp/esp-idf/components/tcp_transport /home/awe/esp/esp-idf/components/tinyusb /home/awe/esp/esp-idf/components/ulp /home/awe/esp/esp-idf/components/unity /home/awe/esp/esp-idf/components/usb /home/awe/esp/esp-idf/components/vfs /home/awe/esp/esp-idf/components/wear_levelling /home/awe/esp/esp-idf/components/wifi_provisioning /home/awe/esp/esp-idf/components/wpa_supplicant /home/awe/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/awe/esp/coba_modbus/build
+[1/14] Building C object esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj
+FAILED: esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj 
+/home/awe/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-1006-g02605f1a31-dirty\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/awe/esp/coba_modbus/build/config -I/home/awe/esp/coba_modbus/components/config/include -I/home/awe/esp/esp-idf/components/newlib/platform_include -I/home/awe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/awe/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/awe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/awe/esp/esp-idf/components/freertos/esp_additions/include -I/home/awe/esp/esp-idf/components/esp_hw_support/include -I/home/awe/esp/esp-idf/components/esp_hw_support/include/soc -I/home/awe/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/awe/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/awe/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/awe/esp/esp-idf/components/heap/include -I/home/awe/esp/esp-idf/components/log/include -I/home/awe/esp/esp-idf/components/soc/include -I/home/awe/esp/esp-idf/components/soc/esp32/. -I/home/awe/esp/esp-idf/components/soc/esp32/include -I/home/awe/esp/esp-idf/components/hal/esp32/include -I/home/awe/esp/esp-idf/components/hal/include -I/home/awe/esp/esp-idf/components/hal/platform_port/include -I/home/awe/esp/esp-idf/components/esp_rom/include -I/home/awe/esp/esp-idf/components/esp_rom/include/esp32 -I/home/awe/esp/esp-idf/components/esp_rom/esp32 -I/home/awe/esp/esp-idf/components/esp_common/include -I/home/awe/esp/esp-idf/components/esp_system/include -I/home/awe/esp/esp-idf/components/esp_system/port/soc -I/home/awe/esp/esp-idf/components/esp_system/port/include/private -I/home/awe/esp/esp-idf/components/xtensa/include -I/home/awe/esp/esp-idf/components/xtensa/esp32/include -I/home/awe/esp/esp-idf/components/lwip/include -I/home/awe/esp/esp-idf/components/lwip/include/apps -I/home/awe/esp/esp-idf/components/lwip/include/apps/sntp -I/home/awe/esp/esp-idf/components/lwip/lwip/src/include -I/home/awe/esp/esp-idf/components/lwip/port/esp32/include -I/home/awe/esp/esp-idf/components/lwip/port/esp32/include/arch -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/awe/esp/coba_modbus=. -fmacro-prefix-map=/home/awe/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj -MF esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj.d -o esp-idf/config/CMakeFiles/__idf_config.dir/config.c.obj -c /home/awe/esp/coba_modbus/components/config/config.c
+/home/awe/esp/coba_modbus/components/config/config.c:6:1: error: unknown type name 'esp_mqtt_client_handle_t'
+    6 | esp_mqtt_client_handle_t client;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:9:1: error: unknown type name 'TimerHandle_t'
+    9 | TimerHandle_t xIdleTimer;
+      | ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:10:1: error: unknown type name 'TimerHandle_t'
+   10 | TimerHandle_t xRefreshHeartbeat;
+      | ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:11:1: error: unknown type name 'TimerHandle_t'
+   11 | TimerHandle_t xRunningStatusTimer;
+      | ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:13:45: error: unknown type name 'esp_event_base_t'
+   13 | void mqtt_event_handler(void *handler_args, esp_event_base_t base, int event_id, void *event_data) {
+      |                                             ^~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c: In function 'mqtt_app_start':
+/home/awe/esp/coba_modbus/components/config/config.c:81:5: error: 'MACHINE_STATE_CONFIG' undeclared (first use in this function)
+   81 |     MACHINE_STATE_CONFIG = machine_state;
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:81:5: note: each undeclared identifier is reported only once for each function it appears in
+/home/awe/esp/coba_modbus/components/config/config.c:83:5: error: unknown type name 'esp_mqtt_client_config_t'
+   83 |     esp_mqtt_client_config_t mqtt_cfg = {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:84:9: error: field name not in record or union initializer
+   84 |         .broker.address.uri = CONFIG_BROKER_URL,
+      |         ^
+/home/awe/esp/coba_modbus/components/config/config.c:84:9: note: (near initialization for 'mqtt_cfg')
+/home/awe/esp/coba_modbus/components/config/config.c:84:31: warning: initialization of 'int' from 'const char *' makes integer from pointer without a cast [-Wint-conversion]
+   84 |         .broker.address.uri = CONFIG_BROKER_URL,
+      |                               ^~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:84:31: note: (near initialization for 'mqtt_cfg')
+/home/awe/esp/coba_modbus/components/config/config.c:87:14: error: implicit declaration of function 'esp_mqtt_client_init' [-Werror=implicit-function-declaration]
+   87 |     client = esp_mqtt_client_init(&mqtt_cfg);
+      |              ^~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:89:5: error: implicit declaration of function 'esp_mqtt_client_register_event' [-Werror=implicit-function-declaration]
+   89 |     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, NULL);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:89:44: error: 'ESP_EVENT_ANY_ID' undeclared (first use in this function)
+   89 |     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, NULL);
+      |                                            ^~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:89:62: error: 'mqtt_event_handler' undeclared (first use in this function)
+   89 |     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, NULL);
+      |                                                              ^~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:89:82: error: 'NULL' undeclared (first use in this function)
+   89 |     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, NULL);
+      |                                                                                  ^~~~
+/home/awe/esp/coba_modbus/components/config/config.c:2:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    1 | #include "config.h"
+  +++ |+#include <stddef.h>
+    2 | 
+/home/awe/esp/coba_modbus/components/config/config.c:91:5: error: implicit declaration of function 'esp_mqtt_client_start' [-Werror=implicit-function-declaration]
+   91 |     esp_mqtt_client_start(client);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c: At top level:
+/home/awe/esp/coba_modbus/components/config/config.c:97:8: error: unknown type name 'EventGroupHandle_t'
+   97 | static EventGroupHandle_t s_wifi_event_group;
+      |        ^~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:101:31: error: unknown type name 'esp_event_base_t'
+  101 | void event_handler(void* arg, esp_event_base_t event_base, int event_id, void* event_data)
+      |                               ^~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c: In function 'wifi_init_sta':
+/home/awe/esp/coba_modbus/components/config/config.c:124:26: error: implicit declaration of function 'xEventGroupCreate' [-Werror=implicit-function-declaration]
+  124 |     s_wifi_event_group = xEventGroupCreate();
+      |                          ^~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:126:5: error: implicit declaration of function 'ESP_ERROR_CHECK' [-Werror=implicit-function-declaration]
+  126 |     ESP_ERROR_CHECK(esp_netif_init());
+      |     ^~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:126:21: error: implicit declaration of function 'esp_netif_init' [-Werror=implicit-function-declaration]
+  126 |     ESP_ERROR_CHECK(esp_netif_init());
+      |                     ^~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:128:21: error: implicit declaration of function 'esp_event_loop_create_default' [-Werror=implicit-function-declaration]
+  128 |     ESP_ERROR_CHECK(esp_event_loop_create_default());
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:129:5: error: implicit declaration of function 'esp_netif_create_default_wifi_sta' [-Werror=implicit-function-declaration]
+  129 |     esp_netif_create_default_wifi_sta();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:131:5: error: unknown type name 'wifi_init_config_t'
+  131 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |     ^~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:131:30: error: implicit declaration of function 'WIFI_INIT_CONFIG_DEFAULT' [-Werror=implicit-function-declaration]
+  131 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:132:21: error: implicit declaration of function 'esp_wifi_init' [-Werror=implicit-function-declaration]
+  132 |     ESP_ERROR_CHECK(esp_wifi_init(&cfg));
+      |                     ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:134:5: error: unknown type name 'esp_event_handler_instance_t'
+  134 |     esp_event_handler_instance_t instance_any_id;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:135:5: error: unknown type name 'esp_event_handler_instance_t'
+  135 |     esp_event_handler_instance_t instance_got_ip;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:136:21: error: implicit declaration of function 'esp_event_handler_instance_register' [-Werror=implicit-function-declaration]
+  136 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL, &instance_any_id));
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:136:57: error: 'WIFI_EVENT' undeclared (first use in this function)
+  136 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL, &instance_any_id));
+      |                                                         ^~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:136:69: error: 'ESP_EVENT_ANY_ID' undeclared (first use in this function)
+  136 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL, &instance_any_id));
+      |                                                                     ^~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:136:88: error: 'event_handler' undeclared (first use in this function)
+  136 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL, &instance_any_id));
+      |                                                                                        ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:136:103: error: 'NULL' undeclared (first use in this function)
+  136 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL, &instance_any_id));
+      |                                                                                                       ^~~~
+/home/awe/esp/coba_modbus/components/config/config.c:136:103: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+/home/awe/esp/coba_modbus/components/config/config.c:137:57: error: 'IP_EVENT' undeclared (first use in this function)
+  137 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &event_handler, NULL, &instance_got_ip));
+      |                                                         ^~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:137:67: error: 'IP_EVENT_STA_GOT_IP' undeclared (first use in this function)
+  137 |     ESP_ERROR_CHECK(esp_event_handler_instance_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &event_handler, NULL, &instance_got_ip));
+      |                                                                   ^~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:139:5: error: unknown type name 'wifi_config_t'
+  139 |     wifi_config_t wifi_config = {
+      |     ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:140:9: error: field name not in record or union initializer
+  140 |         .sta = {
+      |         ^
+/home/awe/esp/coba_modbus/components/config/config.c:140:9: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:140:9: warning: braces around scalar initializer
+/home/awe/esp/coba_modbus/components/config/config.c:140:9: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:141:13: error: field name not in record or union initializer
+  141 |             .ssid = CONTROLLER_ESP_WIFI_SSID,
+      |             ^
+/home/awe/esp/coba_modbus/components/config/config.c:141:13: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:141:21: error: 'CONTROLLER_ESP_WIFI_SSID' undeclared (first use in this function)
+  141 |             .ssid = CONTROLLER_ESP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:142:13: error: field name not in record or union initializer
+  142 |             .password = CONTROLLER_ESP_WIFI_PASS,
+      |             ^
+/home/awe/esp/coba_modbus/components/config/config.c:142:13: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:142:25: error: 'CONTROLLER_ESP_WIFI_PASS' undeclared (first use in this function)
+  142 |             .password = CONTROLLER_ESP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:142:25: warning: excess elements in scalar initializer
+/home/awe/esp/coba_modbus/components/config/config.c:142:25: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:146:13: error: field name not in record or union initializer
+  146 |             .threshold.authmode = ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD,
+      |             ^
+/home/awe/esp/coba_modbus/components/config/config.c:146:13: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:146:35: error: 'ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD' undeclared (first use in this function)
+  146 |             .threshold.authmode = ESP_WIFI_SCAN_AUTH_MODE_THRESHOLD,
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:146:35: warning: excess elements in scalar initializer
+/home/awe/esp/coba_modbus/components/config/config.c:146:35: note: (near initialization for 'wifi_config')
+/home/awe/esp/coba_modbus/components/config/config.c:150:21: error: implicit declaration of function 'esp_wifi_set_mode' [-Werror=implicit-function-declaration]
+  150 |     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA) );
+      |                     ^~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:150:39: error: 'WIFI_MODE_STA' undeclared (first use in this function)
+  150 |     ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA) );
+      |                                       ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:151:21: error: implicit declaration of function 'esp_wifi_set_config' [-Werror=implicit-function-declaration]
+  151 |     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config) );
+      |                     ^~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:151:41: error: 'WIFI_IF_STA' undeclared (first use in this function)
+  151 |     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config) );
+      |                                         ^~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:152:21: error: implicit declaration of function 'esp_wifi_start' [-Werror=implicit-function-declaration]
+  152 |     ESP_ERROR_CHECK(esp_wifi_start() );
+      |                     ^~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:154:5: error: implicit declaration of function 'ESP_LOGI' [-Werror=implicit-function-declaration]
+  154 |     ESP_LOGI(WIFI_TAG, "wifi_init_sta finished.");
+      |     ^~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:154:14: error: 'WIFI_TAG' undeclared (first use in this function)
+  154 |     ESP_LOGI(WIFI_TAG, "wifi_init_sta finished.");
+      |              ^~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:158:5: error: unknown type name 'EventBits_t'
+  158 |     EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+      |     ^~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:158:24: error: implicit declaration of function 'xEventGroupWaitBits' [-Werror=implicit-function-declaration]
+  158 |     EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+      |                        ^~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:159:13: error: 'WIFI_CONNECTED_BIT' undeclared (first use in this function)
+  159 |             WIFI_CONNECTED_BIT | WIFI_FAIL_BIT,
+      |             ^~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:159:34: error: 'WIFI_FAIL_BIT' undeclared (first use in this function)
+  159 |             WIFI_CONNECTED_BIT | WIFI_FAIL_BIT,
+      |                                  ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:160:13: error: 'pdFALSE' undeclared (first use in this function)
+  160 |             pdFALSE,
+      |             ^~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:162:13: error: 'portMAX_DELAY' undeclared (first use in this function)
+  162 |             portMAX_DELAY);
+      |             ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:169:9: error: implicit declaration of function 'gpio_set_level' [-Werror=implicit-function-declaration]
+  169 |         gpio_set_level(LED_2, 1);
+      |         ^~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:169:24: error: 'LED_2' undeclared (first use in this function)
+  169 |         gpio_set_level(LED_2, 1);
+      |                        ^~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:174:9: error: implicit declaration of function 'ESP_LOGE' [-Werror=implicit-function-declaration]
+  174 |         ESP_LOGE(WIFI_TAG, "UNEXPECTED EVENT");
+      |         ^~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:178:21: error: implicit declaration of function 'esp_event_handler_instance_unregister' [-Werror=implicit-function-declaration]
+  178 |     ESP_ERROR_CHECK(esp_event_handler_instance_unregister(IP_EVENT, IP_EVENT_STA_GOT_IP, instance_got_ip));
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:180:5: error: implicit declaration of function 'vEventGroupDelete' [-Werror=implicit-function-declaration]
+  180 |     vEventGroupDelete(s_wifi_event_group);
+      |     ^~~~~~~~~~~~~~~~~
+At top level:
+/home/awe/esp/coba_modbus/components/config/config.c:99:12: warning: 's_retry_num' defined but not used [-Wunused-variable]
+   99 | static int s_retry_num = 0;
+      |            ^~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/config/config.c:3:20: warning: 'MQTT_TAG' defined but not used [-Wunused-variable]
+    3 | static const char *MQTT_TAG = "MQTT_EXAMPLE";
+      |                    ^~~~~~~~
+cc1: some warnings being treated as errors
+[2/14] Performing build step for 'bootloader'
+[1/1] cd /home/awe/esp/coba_modbus/build/bootloader/esp-idf/esptool_py && /home/awe/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/awe/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/awe/esp/coba_modbus/build/bootloader/bootloader.bin
+Bootloader binary size 0x66d0 bytes. 0x930 bytes (8%) free.
+[3/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+ninja: build stopped: subcommand failed.
