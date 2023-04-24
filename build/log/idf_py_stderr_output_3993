@@ -1,0 +1,10 @@
+CMake Error at /home/awe/esp/esp-idf/tools/cmake/build.cmake:263 (message):
+  Failed to resolve component 'controller'.
+Call Stack (most recent call first):
+  /home/awe/esp/esp-idf/tools/cmake/build.cmake:299 (__build_resolve_and_add_req)
+  /home/awe/esp/esp-idf/tools/cmake/build.cmake:592 (__build_expand_requirements)
+  /home/awe/esp/esp-idf/tools/cmake/project.cmake:440 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

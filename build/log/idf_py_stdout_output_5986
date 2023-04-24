@@ -1,0 +1,97 @@
+[1/13] Performing build step for 'bootloader'
+[1/1] cd /home/awe/esp/coba_modbus/build/bootloader/esp-idf/esptool_py && /home/awe/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/awe/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/awe/esp/coba_modbus/build/bootloader/bootloader.bin
+Bootloader binary size 0x66d0 bytes. 0x930 bytes (8%) free.
+[2/11] Building C object esp-idf/rs485/CMakeFiles/__idf_rs485.dir/rs485.c.obj
+FAILED: esp-idf/rs485/CMakeFiles/__idf_rs485.dir/rs485.c.obj 
+/home/awe/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-1006-g02605f1a31-dirty\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/awe/esp/coba_modbus/build/config -I/home/awe/esp/coba_modbus/components/rs485/include -I/home/awe/esp/esp-idf/components/newlib/platform_include -I/home/awe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/awe/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/awe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/awe/esp/esp-idf/components/freertos/esp_additions/include -I/home/awe/esp/esp-idf/components/esp_hw_support/include -I/home/awe/esp/esp-idf/components/esp_hw_support/include/soc -I/home/awe/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/awe/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/awe/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/awe/esp/esp-idf/components/heap/include -I/home/awe/esp/esp-idf/components/log/include -I/home/awe/esp/esp-idf/components/soc/include -I/home/awe/esp/esp-idf/components/soc/esp32/. -I/home/awe/esp/esp-idf/components/soc/esp32/include -I/home/awe/esp/esp-idf/components/hal/esp32/include -I/home/awe/esp/esp-idf/components/hal/include -I/home/awe/esp/esp-idf/components/hal/platform_port/include -I/home/awe/esp/esp-idf/components/esp_rom/include -I/home/awe/esp/esp-idf/components/esp_rom/include/esp32 -I/home/awe/esp/esp-idf/components/esp_rom/esp32 -I/home/awe/esp/esp-idf/components/esp_common/include -I/home/awe/esp/esp-idf/components/esp_system/include -I/home/awe/esp/esp-idf/components/esp_system/port/soc -I/home/awe/esp/esp-idf/components/esp_system/port/include/private -I/home/awe/esp/esp-idf/components/xtensa/include -I/home/awe/esp/esp-idf/components/xtensa/esp32/include -I/home/awe/esp/esp-idf/components/lwip/include -I/home/awe/esp/esp-idf/components/lwip/include/apps -I/home/awe/esp/esp-idf/components/lwip/include/apps/sntp -I/home/awe/esp/esp-idf/components/lwip/lwip/src/include -I/home/awe/esp/esp-idf/components/lwip/port/esp32/include -I/home/awe/esp/esp-idf/components/lwip/port/esp32/include/arch -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/awe/esp/coba_modbus=. -fmacro-prefix-map=/home/awe/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/rs485/CMakeFiles/__idf_rs485.dir/rs485.c.obj -MF esp-idf/rs485/CMakeFiles/__idf_rs485.dir/rs485.c.obj.d -o esp-idf/rs485/CMakeFiles/__idf_rs485.dir/rs485.c.obj -c /home/awe/esp/coba_modbus/components/rs485/rs485.c
+In file included from /home/awe/esp/coba_modbus/components/rs485/rs485.c:1:
+/home/awe/esp/coba_modbus/components/rs485/include/rs485.h:5:10: fatal error: driver/uart.h: No such file or directory
+    5 | #include "driver/uart.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+[3/11] Building C object esp-idf/gsm/CMakeFiles/__idf_gsm.dir/gsm.c.obj
+FAILED: esp-idf/gsm/CMakeFiles/__idf_gsm.dir/gsm.c.obj 
+/home/awe/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-1006-g02605f1a31-dirty\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/awe/esp/coba_modbus/build/config -I/home/awe/esp/coba_modbus/components/gsm/include -I/home/awe/esp/esp-idf/components/newlib/platform_include -I/home/awe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/awe/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/awe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/awe/esp/esp-idf/components/freertos/esp_additions/include -I/home/awe/esp/esp-idf/components/esp_hw_support/include -I/home/awe/esp/esp-idf/components/esp_hw_support/include/soc -I/home/awe/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/awe/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/awe/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/awe/esp/esp-idf/components/heap/include -I/home/awe/esp/esp-idf/components/log/include -I/home/awe/esp/esp-idf/components/soc/include -I/home/awe/esp/esp-idf/components/soc/esp32/. -I/home/awe/esp/esp-idf/components/soc/esp32/include -I/home/awe/esp/esp-idf/components/hal/esp32/include -I/home/awe/esp/esp-idf/components/hal/include -I/home/awe/esp/esp-idf/components/hal/platform_port/include -I/home/awe/esp/esp-idf/components/esp_rom/include -I/home/awe/esp/esp-idf/components/esp_rom/include/esp32 -I/home/awe/esp/esp-idf/components/esp_rom/esp32 -I/home/awe/esp/esp-idf/components/esp_common/include -I/home/awe/esp/esp-idf/components/esp_system/include -I/home/awe/esp/esp-idf/components/esp_system/port/soc -I/home/awe/esp/esp-idf/components/esp_system/port/include/private -I/home/awe/esp/esp-idf/components/xtensa/include -I/home/awe/esp/esp-idf/components/xtensa/esp32/include -I/home/awe/esp/esp-idf/components/lwip/include -I/home/awe/esp/esp-idf/components/lwip/include/apps -I/home/awe/esp/esp-idf/components/lwip/include/apps/sntp -I/home/awe/esp/esp-idf/components/lwip/lwip/src/include -I/home/awe/esp/esp-idf/components/lwip/port/esp32/include -I/home/awe/esp/esp-idf/components/lwip/port/esp32/include/arch -I/home/awe/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/awe/esp/esp-idf/components/esp_event/include -I/home/awe/esp/esp-idf/components/tcp_transport/include -I/home/awe/esp/esp-idf/components/esp-tls -I/home/awe/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/awe/esp/esp-idf/components/mbedtls/port/include -I/home/awe/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/awe/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/awe/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/awe/esp/coba_modbus=. -fmacro-prefix-map=/home/awe/esp/esp-idf=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/gsm/CMakeFiles/__idf_gsm.dir/gsm.c.obj -MF esp-idf/gsm/CMakeFiles/__idf_gsm.dir/gsm.c.obj.d -o esp-idf/gsm/CMakeFiles/__idf_gsm.dir/gsm.c.obj -c /home/awe/esp/coba_modbus/components/gsm/gsm.c
+/home/awe/esp/coba_modbus/components/gsm/gsm.c: In function 'gsm_init':
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:11:5: error: unknown type name 'uart_config_t'
+   11 |     uart_config_t uart_config = {
+      |     ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:12:9: error: field name not in record or union initializer
+   12 |         .baud_rate = UART_BAUD_RATE,
+      |         ^
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:12:9: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:13:9: error: field name not in record or union initializer
+   13 |         .data_bits = UART_DATA_8_BITS,
+      |         ^
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:13:9: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:13:22: error: 'UART_DATA_8_BITS' undeclared (first use in this function)
+   13 |         .data_bits = UART_DATA_8_BITS,
+      |                      ^~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:13:22: note: each undeclared identifier is reported only once for each function it appears in
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:13:22: warning: excess elements in scalar initializer
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:13:22: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:14:9: error: field name not in record or union initializer
+   14 |         .parity = UART_PARITY_DISABLE,
+      |         ^
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:14:9: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:14:19: error: 'UART_PARITY_DISABLE' undeclared (first use in this function)
+   14 |         .parity = UART_PARITY_DISABLE,
+      |                   ^~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:14:19: warning: excess elements in scalar initializer
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:14:19: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:15:9: error: field name not in record or union initializer
+   15 |         .stop_bits = UART_STOP_BITS_1,
+      |         ^
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:15:9: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:15:22: error: 'UART_STOP_BITS_1' undeclared (first use in this function)
+   15 |         .stop_bits = UART_STOP_BITS_1,
+      |                      ^~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:15:22: warning: excess elements in scalar initializer
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:15:22: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:16:9: error: field name not in record or union initializer
+   16 |         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+      |         ^
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:16:9: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:16:22: error: 'UART_HW_FLOWCTRL_DISABLE' undeclared (first use in this function)
+   16 |         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:16:22: warning: excess elements in scalar initializer
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:16:22: note: (near initialization for 'uart_config')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:19:5: error: implicit declaration of function 'uart_param_config' [-Werror=implicit-function-declaration]
+   19 |     uart_param_config(UART_NUM_1, &uart_config);
+      |     ^~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:19:23: error: 'UART_NUM_1' undeclared (first use in this function)
+   19 |     uart_param_config(UART_NUM_1, &uart_config);
+      |                       ^~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:20:5: error: implicit declaration of function 'uart_set_pin' [-Werror=implicit-function-declaration]
+   20 |     uart_set_pin(UART_NUM_1, UART_TX_PIN, UART_RX_PIN);
+      |     ^~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:21:5: error: implicit declaration of function 'uart_driver_install' [-Werror=implicit-function-declaration]
+   21 |     uart_driver_install(UART_NUM_1, BUF_SIZE * 2, 0, 0, NULL, 0);
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c: In function 'mqtt_event_handler':
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:48:59: error: 'topic_control' undeclared (first use in this function)
+   48 |         msg_id = esp_mqtt_client_subscribe(client, (char*)topic_control, 0);
+      |                                                           ^~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:70:13: error: implicit declaration of function 'log_error_if_nonzero' [-Werror=implicit-function-declaration]
+   70 |             log_error_if_nonzero("reported from esp-tls", event->error_handle->esp_tls_last_esp_err);
+      |             ^~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c: In function 'mqtt_init':
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:85:10: error: 'esp_mqtt_client_config_t' has no member named 'uri'
+   85 |         .uri = CONFIG_BROKER_URL,
+      |          ^~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:86:10: error: 'esp_mqtt_client_config_t' has no member named 'event_handle'
+   86 |         .event_handle = mqtt_event_handler,
+      |          ^~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:86:25: warning: initialization of 'const char *' from incompatible pointer type 'void (*)(void *, const char *, int,  void *)' [-Wincompatible-pointer-types]
+   86 |         .event_handle = mqtt_event_handler,
+      |                         ^~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:86:25: note: (near initialization for 'mqtt_cfg.credentials.username')
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:87:10: error: 'esp_mqtt_client_config_t' has no member named 'disable_auto_reconnect'
+   87 |         .disable_auto_reconnect = false,
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+/home/awe/esp/coba_modbus/components/gsm/gsm.c:84:47: error: missing braces around initializer [-Werror=missing-braces]
+   84 |     const esp_mqtt_client_config_t mqtt_cfg = {
+      |                                               ^
+cc1: some warnings being treated as errors
+ninja: build stopped: subcommand failed.
