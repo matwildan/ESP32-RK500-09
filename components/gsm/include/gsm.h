@@ -22,9 +22,9 @@
 
 #define BUF_SIZE 1024
 
-#define UART_TX_PIN 9 // change to your GSM module's TX pin
-#define UART_RX_PIN 10 // change to your GSM module's RX pin
-#define UART_BAUD_RATE 9600
+#define UART_TX_GSM_PIN 9 // change to your GSM module's TX pin
+#define UART_RX_GSM_PIN 10 // change to your GSM module's RX pin
+#define UART_GSM_BAUD_RATE 9600
 
 void gsm_init();
 

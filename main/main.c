@@ -11,7 +11,7 @@ void app_main() {
 
     mqtt_init();
 
-    rs485_main();
+    data_from_sensor = rs485_main();
 
     publish_data(data_from_sensor, "data");
 }

@@ -21,6 +21,6 @@ void rs485_send(uint8_t *data, size_t len);
 void rs485_recv(uint8_t *data, size_t len);
 
 /* Function main RS485 */
-void rs485_main();
+char* rs485_main();
 
 #endif
